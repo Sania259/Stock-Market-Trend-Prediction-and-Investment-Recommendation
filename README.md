@@ -98,15 +98,15 @@ The model was evaluated on historical stock data and demonstrated strong predict
 
 ### System Architecture
 
-![Architecture](images/System_Architecture.png)
+![Architecture](Images/System_Architecture.png)
 
-### Prediction Results
+### Loss Curve
 
-![Prediction](images/prediction_results.png)
+![Prediction](Images/Loss_Curve.png)
 
 ### SHAP Explainability
 
-![SHAP](images/SHAP_plot.png)
+![SHAP](Images/SHAP_plot.png)
 
 ---
 
