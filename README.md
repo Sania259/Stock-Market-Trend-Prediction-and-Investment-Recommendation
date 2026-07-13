@@ -79,6 +79,19 @@ The Dependent Multi-Stock GRU model achieved the best overall performance.
 
 ---
 
+## Project Workflow
+
+1. Data Loading
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training (LSTM & GRU)
+5. Model Evaluation (RMSE, MAE)
+6. Prediction
+7. Investment Recommendation
+8. Explainability using SHAP
+
+---
+
 ## 📈 Performance
 
 ### Best Performing Model
@@ -94,6 +107,12 @@ The model was evaluated on historical stock data and demonstrated strong predict
 
 ---
 
+## Results
+
+- Multiple LSTM and GRU models were trained and evaluated using RMSE and MAE.
+- GRU Dependent model achieved the best performance.
+- The system successfully predicts stock trends and recommends top 10 companies.
+
 ## 📸 Project Screenshots
 
 ### System Architecture
@@ -103,6 +122,10 @@ The model was evaluated on historical stock data and demonstrated strong predict
 ### Loss Curve
 
 ![Prediction](Images/Loss_Curve.png)
+
+### Actual vs Predicted for Wipro by dependent GRU
+
+![Prediction](Images/Wipro_DepGRU.png)
 
 ### SHAP Explainability
 
