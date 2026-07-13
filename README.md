@@ -4,6 +4,33 @@ A deep learning-based framework for **stock market trend prediction and investme
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+---
+
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Repository Structure](#-repository-structure)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Project Workflow](#-project-workflow)
+- [Performance](#-performance)
+- [Results](#-results)
+- [Project Screenshots](#-project-screenshots)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Future Improvements](#-future-improvements)
+- [Research Recognition](#-research-recognition)
+- [Author](#-author)
+
+---
+
 ## 🚀 Project Overview
 
 Predicting stock market movements is a challenging task due to the highly dynamic and nonlinear nature of financial markets. This project develops and evaluates multiple deep learning architectures for stock trend prediction and combines them with Explainable AI techniques to improve transparency and decision-making.
@@ -15,6 +42,15 @@ The project consists of:
 - Performance evaluation of multiple model architectures
 - Investment recommendation based on predicted returns
 - Explainability using SHAP
+
+---
+
+## 🌟 Key Highlights
+
+- 📈 Deep Learning-based stock trend prediction using LSTM and GRU
+- 🤖 Explainable AI with SHAP for transparent predictions
+- 📊 Investment recommendation based on predicted stock performance
+- 🏆 Research recognized with the **Best Paper Award – ICETEST 2026**
 
 ---
 
@@ -31,16 +67,32 @@ The project consists of:
 
 ## 🛠 Technologies Used
 
-- Python
-- TensorFlow / Keras
-- NumPy
-- Pandas
-- Scikit-learn
-- SHAP
-- Matplotlib
-- Plotly
-- TA (Technical Analysis Library)
-- Jupyter Notebook
+Programming
+• Python
+
+Deep Learning
+• TensorFlow
+• Keras
+
+Data Processing
+• NumPy
+• Pandas
+
+Machine Learning
+• Scikit-learn
+
+Visualization
+• Matplotlib
+• Plotly
+
+Explainability
+• SHAP
+
+Technical Analysis
+• TA Library
+
+Development
+• Jupyter Notebook
 
 ---
 
@@ -49,13 +101,13 @@ The project consists of:
 ```
 Stock-Market-Trend-Prediction-and-Investment-Recommendation
 │
-├── notebooks/
-│
-├── images/
-│
-├── requirements.txt
-│
+├── notebooks/           # Jupyter notebooks
+├── Images/              # Figures and screenshots
+├── requirements.txt     # Python dependencies
+├── LICENSE              # MIT License
+├── .gitignore           # Ignored files
 └── README.md
+
 ```
 
 ---
@@ -109,9 +161,10 @@ The model was evaluated on historical stock data and demonstrated strong predict
 
 ## 📊 Results
 
-- Multiple LSTM and GRU models were trained and evaluated using RMSE and MAE.
-- GRU Dependent model achieved the best performance.
-- The system successfully predicts stock trends and recommends top 10 companies.
+- Evaluated multiple LSTM and GRU architectures.
+- Dependent GRU achieved the lowest RMSE and MAE.
+- Generated investment recommendations based on predicted stock performance.
+- Improved prediction transparency using SHAP explainability.
 
 ## 📸 Project Screenshots
 
@@ -185,8 +238,15 @@ This project formed the basis of our research paper:
 
 Bachelor of Engineering (Information Technology)
 
-Interested in Machine Learning, Deep Learning, Data Science, and AI-powered Financial Analytics.
+Passionate about Machine Learning, Deep Learning, Data Science, and AI-driven Financial Analytics.
+
+- GitHub: https://github.com/Sania259
+- LinkedIn: linkedin.com/in/sania-ayare-885764319
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Thank you for visiting!
