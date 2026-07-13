@@ -79,7 +79,7 @@ The Dependent Multi-Stock GRU model achieved the best overall performance.
 
 ---
 
-## Project Workflow
+## 📋 Project Workflow
 
 1. Data Loading
 2. Data Preprocessing
@@ -107,7 +107,7 @@ The model was evaluated on historical stock data and demonstrated strong predict
 
 ---
 
-## Results
+## 📊 Results
 
 - Multiple LSTM and GRU models were trained and evaluated using RMSE and MAE.
 - GRU Dependent model achieved the best performance.
